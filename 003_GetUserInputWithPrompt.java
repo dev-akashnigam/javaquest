@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class GetUserInputWithPrompt 
+class GetUserInputWithPrompt 
 {
     public static void main(String args[])
     {

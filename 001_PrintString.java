@@ -1,4 +1,4 @@
-public class PrintString
+class PrintString
 {
     public static void main(String args[])
     {

@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class GetUserInputOnNextLine 
+class GetUserInputOnNextLine
 {
     public static void main(String args[])
     {
