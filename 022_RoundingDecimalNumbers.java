@@ -10,9 +10,9 @@ class RoundingDecimalNumbers
         float decimalNo = scanner.nextFloat();
 
         int roundedToNearestInteger = Math.round(decimalNo);
-        double roundedToOneDecimalPlace = Math.round(decimalNo * 10)/10.0;
-        double roundedToTwoDecimalPlace = Math.round(decimalNo * 100)/100.0;
-        double roundedToThreeDecimalPlace = Math.round(decimalNo * 1000)/1000.0;
+        double roundedToOneDecimalPlace = (Math.round(decimalNo * 10)) / 10.0;
+        double roundedToTwoDecimalPlace = (Math.round(decimalNo * 100)) / 100.0;
+        double roundedToThreeDecimalPlace = (Math.round(decimalNo * 1000)) / 1000.0;
 
         System.out.println(decimalNo+" when rounded off to nearest integer becomes : "+roundedToNearestInteger);
         System.out.println(decimalNo+" when rounded off to nearest integer becomes : "+roundedToOneDecimalPlace);
