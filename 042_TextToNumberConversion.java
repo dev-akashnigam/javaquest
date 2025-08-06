@@ -8,14 +8,14 @@ class TextToNumberConversion
 {
     public static void main(String args[])
     {
-        String realNum = "42";
-        String decimalNum = "100.8963";
+        final String realNum = "42";
+        final String decimalNum = "100.8963";
 
-        int integerNum = Integer.parseInt(realNum);
-        long longNum = Long.parseLong(realNum);
+        final int integerNum = Integer.parseInt(realNum);
+        final long longNum = Long.parseLong(realNum);
 
-        float floatNum = Float.parseFloat(decimalNum);
-        double doubleNum = Double.parseDouble(decimalNum);
+        final float floatNum = Float.parseFloat(decimalNum);
+        final double doubleNum = Double.parseDouble(decimalNum);
 
         System.out.println("Integer corresponding to Text/String : \""+realNum+"\" = "+integerNum);
         System.out.println("Long corresponding to Text/String : \""+realNum+"\" = "+longNum);

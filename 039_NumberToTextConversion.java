@@ -2,15 +2,15 @@ class NumberToTextConversion
 {
     public static void main(String args[])
     {
-        int intNum = 7851;
-        long longNum = 124126l;
-        float floatNum = 12.265f;
-        double doubleNum = 75.2365;
+        final int intNum = 7851;
+        final long longNum = 124126l;
+        final float floatNum = 12.265f;
+        final double doubleNum = 75.2365;
 
-        String intString = String.valueOf(intNum);
-        String longString = String.valueOf(longNum);
-        String floatString = String.valueOf(floatNum);
-        String doubleString = String.valueOf(doubleNum);
+        final String intString = String.valueOf(intNum);
+        final String longString = String.valueOf(longNum);
+        final String floatString = String.valueOf(floatNum);
+        final String doubleString = String.valueOf(doubleNum);
 
         System.out.println("String corresponding to the integer number : "+intNum+" = \""+intString+"\"");
         System.out.println("String corresponding to the long number : "+longNum+" = \""+longString+"\"");

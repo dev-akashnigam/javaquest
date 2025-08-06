@@ -2,7 +2,7 @@ class BooleanToNumberConversion
 {
     public static void main(String args[])
     {
-        boolean boolInput = false; // You can alter between true and false here and see the corresponding number that gets printed in the output.
+        final boolean boolInput = false; // You can alter between true and false here and see the corresponding number that gets printed in the output.
 
         /*
          * There is no direct way to convert boolean value to number in java.

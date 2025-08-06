@@ -7,11 +7,11 @@ class TextToCharConversion
         Scanner scanner =new Scanner(System.in);
 
         System.out.println("Please enter a character : ");
-        String stringInput = scanner.nextLine();
+        final String stringInput = scanner.nextLine();
 
-        char ch = stringInput.charAt(0);
+        final char ch = stringInput.charAt(0);
 
-        System.out.println("Character corresponding to the string \""+stringInput+"\" = "+ch);
+        System.out.println("Character corresponding to the string: \""+stringInput+"\" = "+ch);
 
         scanner.close();
     }    

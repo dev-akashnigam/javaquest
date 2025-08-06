@@ -8,10 +8,10 @@ class NumberToBooleanConversion
     {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Please enter a number");
-        int num = scanner.nextInt();
+        System.out.println("Please enter a number : ");
+        final int num = scanner.nextInt();
 
-        boolean bool = (num !=0);  // this is the manual way of converting a number to boolean value in Java
+        final boolean bool = (num !=0);  // this is the manual way of converting a number to boolean value in Java
 
         System.out.println("boolean value corresponding to the number : "+num+" = "+bool);
 
