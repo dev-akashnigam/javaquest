@@ -1,0 +1,3 @@
+class CheckNumberForPalindrome_Placeholder {
+    
+}

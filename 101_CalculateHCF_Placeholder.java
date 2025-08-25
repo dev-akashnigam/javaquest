@@ -1,0 +1,3 @@
+class CalculateHCF_Placeholder {
+    
+}
