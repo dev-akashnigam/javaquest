@@ -1,0 +1,3 @@
+class LeftAlignedHalfNumberPyramid_Placeholder {
+    
+}

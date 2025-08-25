@@ -1,0 +1,3 @@
+class PrintPalindromicNoPyramid_Placeholder {
+    
+}
