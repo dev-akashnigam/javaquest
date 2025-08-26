@@ -1,3 +1,0 @@
-class PrintFloydsTriangle_Placeholder {
-    
-}
