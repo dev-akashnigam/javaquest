@@ -1,3 +1,0 @@
-class ReverseANumberUsingLoop_Placeholder {
-    
-}
